@@ -1,0 +1,17 @@
+{
+  "servers": [
+    {
+        "url":"https://github.com/d1str0/GoPing"
+    }
+  ],
+  "numbers": [
+    "+{number to alert}"
+  ],
+  "webserverPort": "8080",
+  "twilio": {
+    "url": "https://api.twilio.com/2010-04-01/Accounts/{UserID}/Messages.xml",
+    "user": "{user id}",
+    "auth": "{auth code}",
+    "number": "+{twilio number}"
+  }
+}
